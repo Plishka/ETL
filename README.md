@@ -1,7 +1,7 @@
 # ETL Project: Scroll Points Analysis
 
 ## Overview
-This project involved extracting wallet transaction data from Dune Analytics, transforming the data by fetching additional points information from an external API, and loading the cleaned data into Tableau for visualization.
+This project involved extracting wallet transaction data from Scroll blockchain using Dune Analytics, transforming the data by fetching additional points information from an external API, and loading the cleaned data into Tableau for visualization.
 
 ## Process
 
