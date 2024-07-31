@@ -7,6 +7,16 @@ This project focuses on extracting wallet transaction data from the Scroll block
 
 ### 1. Extract
 - **Data Source**: Retrieved wallet addresses from Scroll blockchain transaction data using Dune Analytics.
+  ```sql
+  SELECT 
+      "from" as wallet
+  FROM scroll.transactions
+  GROUP BY 
+      "from"
+  ORDER BY 
+    sum(gas_used) DESC -- To ensure wallets with more points go first 
+  ```
+
 - **API Endpoint**: Set up a custom API endpoint in Dune Analytics.
 - **Data Retrieval**: Developed a [Python script](https://github.com/Plishka/ETL/blob/main/Scroll%20Wallets%20fetch%20from%20Dune%20API.ipynb) to fetch wallet data from the Dune API and save it into a CSV file.
 - **Parallel Data Fetching**: Created an [advanced Python script](https://github.com/Plishka/ETL/blob/main/Scroll%20Marks%20fetch%20from%20AWS%20API.ipynb) to fetch additional data in parallel requests from an AWS API using the wallet addresses from the CSV file, significantly speeding up the data retrieval process.
