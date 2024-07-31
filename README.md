@@ -32,6 +32,3 @@ This project focuses on extracting wallet transaction data from the Scroll block
 
 #### Extracting Wallet Addresses from Dune API
 #### Extracting Points from AWS API
-
-
-
