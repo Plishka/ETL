@@ -5,6 +5,11 @@ This project focuses on extracting wallet transaction data from the Scroll block
 
 ## Process
 
+### Visualization of the ETL Process
+
+![ETL Process](https://github.com/Plishka/ETL/blob/main/ETL_scema.png)
+
+
 ### 1. Extract
 - **Data Source**: Retrieved wallet addresses from Scroll blockchain transaction data using Dune Analytics.
   ```sql
@@ -22,7 +27,7 @@ This project focuses on extracting wallet transaction data from the Scroll block
 - **Parallel Data Fetching**: Created an [advanced Python script](https://github.com/Plishka/ETL/blob/main/Scroll%20Marks%20fetch%20from%20AWS%20API.ipynb) to fetch additional data in parallel requests from an AWS API using the wallet addresses from the CSV file, significantly speeding up the data retrieval process.
 
 ### 2. Transform
-- **Data Cleaning**: Cleaned the fetched data to handle inconsistencies and errors.
+- **Data Cleaning**: Cleaned the fetched data to handle inconsistencies, Null values and errors.
 - **Data Transformation**: Transformed the data by rounding numerical values, managing API rate limits, and ensuring all data was correctly formatted and complete.
 
 ### 3. Load
