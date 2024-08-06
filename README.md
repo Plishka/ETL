@@ -27,7 +27,7 @@ This project focuses on extracting wallet transaction data from the Scroll block
 - **Parallel Data Fetching**: Developed an [advanced Python script](https://github.com/Plishka/ETL/blob/main/Scroll%20Marks%20fetch%20from%20AWS%20API.ipynb) to fetch additional data in parallel requests from an AWS API using the wallet addresses from the CSV file, significantly speeding up the data retrieval process.
 
 ### 2. Transform
-- **Data Cleaning**: Cleaned the fetched data to handle inconsistencies, Null values and errors.
+- **Data Cleaning**: Cleaned the fetched data to handle inconsistencies, Null values and error
 - **Data Transformation**: Transformed the data by rounding numerical values, managing API rate limits, and ensuring all data was correctly formatted and complete.
 
 ### 3. Load
@@ -36,8 +36,8 @@ This project focuses on extracting wallet transaction data from the Scroll block
 
 ## Skills and Tools
 - **PostgreSQL (Dune Analytics)**: Used for querying and extracting data from the Scroll blockchain.
-- **Python**: Utilized to script the data extraction and transformation processes.
-  - Libraries: `pandas`, `requests`, `concurrent.futures` for parallel processing.
+- **Python**: Utilized to script the data extraction and transformation processes. Data Cleansing and Data Analysis
+  - Libraries: `numpy`, `pandas`, `requests`, `concurrent.futures` for parallel processing, `matplotlib`, `seaborn`, `scipy`
 - **API Integration and Management**: Expertise in handling API requests, managing rate limits, and error handling.
 - **Data Cleaning and Transformation**: Ensured data accuracy and consistency through various cleaning and transformation techniques.
 - **CSV File Handling**: Managed large datasets efficiently using CSV files.
