@@ -36,7 +36,7 @@ This project focuses on extracting wallet transaction data from the Scroll block
 
 ## Skills and Tools
 - **PostgreSQL (Dune Analytics)**: Used for querying and extracting data from the Scroll blockchain.
-- **Python**: Utilized to script the data extraction and transformation processes. Data Cleansing and Data Analysis
+- **Python**: Utilized to script the data extraction and transformation processes. Data Cleansing and pre [Data Analysis](https://github.com/Plishka/ETL/blob/main/Scroll%20Analysis.ipynb)
   - Libraries: `numpy`, `pandas`, `requests`, `concurrent.futures` for parallel processing, `matplotlib`, `seaborn`, `scipy`
 - **API Integration and Management**: Expertise in handling API requests, managing rate limits, and error handling.
 - **Data Cleaning and Transformation**: Ensured data accuracy and consistency through various cleaning and transformation techniques.
