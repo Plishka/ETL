@@ -32,7 +32,7 @@ This project focuses on extracting wallet transaction data from the Scroll block
 
 ### 3. Load
 - **Data Storage**: Saved the final transformed data into a new CSV file.
-- **Data Visualization**: Imported the cleaned and transformed data into Tableau to create insightful visualizations.
+- **Data Visualization**: Imported the cleaned and transformed data into Tableau to create insightful [**Dashboard**](https://public.tableau.com/app/profile/oleksandr.plishka/viz/ScrollMarksAnalysis/Dashboard1#1).
 
 ## Skills and Tools
 - **PostgreSQL (Dune Analytics)**: Used for querying and extracting data from the Scroll blockchain.
